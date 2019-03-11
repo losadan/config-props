@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: config-server
-        image: "${image_name}"
+        image: "${application.image_name}"
         imagePullPolicy: "Never"
         ports:
         - containerPort: 8888
